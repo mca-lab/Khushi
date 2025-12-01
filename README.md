@@ -1,23 +1,26 @@
-# Big Data Project: COVID-19 Impact vs World Population
+# Big Data Project: Pokemon vs Pokemon species
 
 ## Project Overview
 This project demonstrates a complete Big Data workflow using Python, PySpark, and Docker.
 It automates data collection, cleaning, integration, and analysis using reproducible containerized pipelines.
 
-The objective is to study how COVID-19 case trends vary with population size across different countries over time.
+The Pokémon dataset is widely used in ML/Data Cleaning demos because:
+
+- It has mixed data types (text, numbers, categories). 
+- It’s easy to visualize and test transformations.
 
 ---
 
 ## Research Question
-“How does the total population of a country relate to the number of confirmed COVID-19 cases and deaths over time?”
+“How do Pokémon attributes and species characteristics relate, and what patterns can be uncovered when combining both datasets?”
 
 We aim to explore:
 
-1. Whether population size correlates with total cases and deaths.
+1. How Pokémon stats (HP, Attack, Defense, Speed, etc.) relate to species-level traits such as habitat, growth rate, capture rate, and color.
 
-2. How per-capita infection and death rates vary across regions.
+2. How merging the Pokémon and Pokémon Species datasets improves analysis, revealing broader patterns in characteristics and evolution.
 
-3. Temporal trends in COVID-19 spread among high- vs low-population countries.
+3. What trends emerge across species groups, including stat differences by habitat, growth rate behavior, and type-based attribute patterns.
 
 ---
 
