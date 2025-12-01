@@ -1,4 +1,4 @@
-# Big Data Project: Pokemon vs Pokemon species
+# Big Data Project: Pokemon and Pokemon species
 
 ## Project Overview
 This project demonstrates a complete Big Data workflow using Python, PySpark, and Docker.
