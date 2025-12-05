@@ -62,7 +62,7 @@ We aim to explore:
 ### Module 3. Exploratory Data Analysis (Summary)
 This module focuses on exploring and visualizing the cleaned Pokémon and Pokémon Species datasets.
 
-#### Key Tasks
+### Key Tasks
 - Load processed datasets into Python
 - Explore structure, missing values, and summary statistics
 - Analyze distributions of key Pokémon stats
@@ -70,7 +70,7 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 - Compare characteristics across habitats, growth rates, and species colors
 - Extract insights from the merged Pokémon + Species dataset
 
-#### Visualizations
+### Visualizations
 - Histograms & boxplots of HP, Attack, Defense, Speed
 - Correlation heatmap of numerical attributes
 - Scatter plots (Attack vs Defense, Speed vs HP)
