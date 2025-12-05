@@ -93,20 +93,20 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 ### Repository Structure
 project/
 │── data/
-│   ├── raw/              # Raw datasets downloaded during ingestion
-│   └── processed/        # Cleaned & integrated datasets ready for analysis
+│   ├── raw/              
+│   └── processed/        
 │
 │── src/
-│   ├── fetch_data.py     # Automated dataset ingestion script
-│   └── clean_data.py     # PySpark-based cleaning & integration pipeline
+│   ├── fetch_data.py     
+│   └── clean_data.py    
 │
 │── notebooks/
-│   └── analysis.ipynb    # Exploratory Data Analysis & visualizations
+│   └── analysis.ipynb  
 │
 │── docker/
-│   ├── Dockerfile.ingest # Container for automated data ingestion
-│   └── Dockerfile.clean  # Container for data cleaning & processing
+│   ├── Dockerfile.ingest 
+│   └── Dockerfile.clean  
 │
-│── requirements.txt       # Python + PySpark dependencies
-│── .gitignore             # Ignored files & folders
-│── README.md              # Project overview & documentation
+│── requirements.txt    
+│── .gitignore           
+│── README.md         
