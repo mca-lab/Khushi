@@ -91,6 +91,7 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 ---
 
 ### Repository Structure
+```
 project/
 │
 │── data/
