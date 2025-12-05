@@ -59,10 +59,10 @@ We aim to explore:
 
 ---
 
-# Module 3. Exploratory Data Analysis (Summary)
+### Module 3. Exploratory Data Analysis (Summary)
 This module focuses on exploring and visualizing the cleaned Pokémon and Pokémon Species datasets.
 
-## Key Tasks
+#### Key Tasks
 - Load processed datasets into Python
 - Explore structure, missing values, and summary statistics
 - Analyze distributions of key Pokémon stats
@@ -70,7 +70,7 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 - Compare characteristics across habitats, growth rates, and species colors
 - Extract insights from the merged Pokémon + Species dataset
 
-## Visualizations
+#### Visualizations
 - Histograms & boxplots of HP, Attack, Defense, Speed
 - Correlation heatmap of numerical attributes
 - Scatter plots (Attack vs Defense, Speed vs HP)
@@ -81,7 +81,7 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 
 ---
 
-# Technology Used
+### Technology Used
 - **Python, Pandas, Matplotlib, Seaborn** – EDA & visualization  
 - **PySpark** – data cleaning and transformation  
 - **Docker** – reproducible workflows  
@@ -90,16 +90,23 @@ This module focuses on exploring and visualizing the cleaned Pokémon and Pokém
 
 ---
 
-# Repository Structure
-data/
-raw/ # Raw datasets
-processed/ # Cleaned datasets
-src/
-fetch_data.py
-clean_data.py
-pipeline.py
-notebooks/
-analysis.ipynb
-Dockerfile
-README.md
-requirements.txt
+### Repository Structure
+project/
+│── data/
+│   ├── raw/              # Raw datasets downloaded during ingestion
+│   └── processed/        # Cleaned & integrated datasets ready for analysis
+│
+│── src/
+│   ├── fetch_data.py     # Automated dataset ingestion script
+│   └── clean_data.py     # PySpark-based cleaning & integration pipeline
+│
+│── notebooks/
+│   └── analysis.ipynb    # Exploratory Data Analysis & visualizations
+│
+│── docker/
+│   ├── Dockerfile.ingest # Container for automated data ingestion
+│   └── Dockerfile.clean  # Container for data cleaning & processing
+│
+│── requirements.txt       # Python + PySpark dependencies
+│── .gitignore             # Ignored files & folders
+│── README.md              # Project overview & documentation
